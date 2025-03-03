@@ -5,8 +5,6 @@ from tensorflow.keras.layers import Dense, GlobalAveragePooling2D, Dropout, Batc
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
-import numpy as np
-import matplotlib.pyplot as plt
 
 def image_generator(folder):
     valid_extensions = ('.jpg')
