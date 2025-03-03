@@ -1,0 +1,1 @@
+# VeriFace-A-deepfake-detection-model.
